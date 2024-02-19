@@ -1,0 +1,1432 @@
+
+nav{
+	background-color:white;
+	
+}
+.s1{
+	background-color: white;
+}
+.evimg
+{
+	width:30px;
+	height: 30px;
+	margin-right:4px
+}
+.ul1{
+  position: relative;
+  top:10px;
+}
+.navbar-nav li a{
+	color:white;
+}
+.ul1 li{
+	margin-left:20px
+}
+.navbar-toggle
+{
+	font-size: 20px;
+	font-weight: bold;
+	color:black;
+	position:absolute;
+	top:-23px;
+	right:-10px
+}
+
+.ul1 .btn
+{
+	background-color: #35FF99;
+}
+.ul1 .btn:focus , .ul1 select:focus , .bbtn input
+{
+	outline: none;
+}
+ .ul1 .taz{
+	font-size:23px;
+	font-weight:bolder;
+	border-left:2px solid white;
+	
+	cursor: pointer;
+	
+}
+.ul1 .taz a{
+	color:black
+}
+.navbar-nav .active a{
+	color:red
+}
+.ul1 li select
+{  
+		border:none;
+	  border-left:2px solid #eee;
+	  padding:8px;
+}
+
+.ul1 li select:focus
+{
+	outline: none;
+	
+}
+.ul1 .li1
+{
+     display: flex;
+	margin-bottom: 1px;
+	margin-top:10px
+}
+.ul1 .li1 i
+{
+   padding-right:10px;
+   border-left:2px solid #eee;
+   padding-left: 10px;
+  
+}
+
+.navbar-nav li a
+{
+  color:black;
+  font-weight: bold;
+}
+.bgdarck
+{
+	background-color: black;
+	text-align: center;
+	padding:20px;
+
+}
+.bgdarck .moveleft , .faqs{
+	animation: moveleft 1s ease-in-out ;
+}
+.bgdarck .moveleft{
+	animation: moveright 1s ease-in-out ;
+}
+.col-xs-12 .inp
+{
+	width:50%;
+	padding: 10px;
+	border-color:white;
+	border:0px solid white;
+
+}
+.col-xs-12 .inp:focus
+{
+	outline: none;
+}
+
+.col-xs-12 .music
+{
+	padding:12px;
+	padding-right:30px;
+	background-color: white;
+	color:black;
+	border-right:1px solid #eee;
+	position: relative;
+	left:5px;
+   font-weight: bold;
+}
+
+
+.ulcheck
+{
+	display:flex;
+	margin-left:600px;
+  
+
+}
+.ulcheck i{
+	position: relative;
+	right:5px;
+}
+.ulcheck li{
+	cursor: pointer;
+	border-bottom: 1px solid gray;
+	padding:10px 30px;
+	
+}
+.ulcheck .active{
+	border-bottom: 2px solid black;
+}
+.imagesindex .col-sm-3 , .imagesindex2 .col-sm-3
+{
+  display: none;
+}
+.showmore
+{
+	display: none;
+}
+.ph div img:hover , .meneu ul li:hover{
+	animation: sizeimg 1s ease-in-out ;
+	cursor: pointer;
+}
+.head
+{
+	text-align: center;
+	font-weight: bold;
+	color:black
+}
+.col-md-3 .time , .col-md-3 .locat{
+	color:gray;
+	font-size:12px;
+}
+
+.tr .col-md-3
+{
+	margin-bottom: 50px;
+	
+}
+.spans{
+	background-color: white
+
+}
+
+.tr .col-md-3 .book
+{
+	width:90%;
+	position: absolute;
+	color: #35FF99;
+	background-color: white;
+	
+	border-top:1px solid #eee;
+	line-height: 40px;
+}
+.tr .col-md-3 .dots
+{
+position: absolute;
+
+right:20px;
+font-size:40px;
+color:#35FF99;
+border-radius: 100%;
+line-height: 20px;
+}
+.spans span{
+padding-left: 10px;
+
+}
+
+.col-xs-12 .arrow
+{
+	cursor: pointer;
+	background-color: rgba(17, 17, 17, 0.1);
+	opacity: .6;
+	padding:10px 30px;
+	color:black;
+	font-weight: bold;
+	border:none;
+}
+.col-xs-12 .arrow:focus{
+	opacity:1;
+	transition: .3s;
+	transform: translatey(-2px);
+
+}
+.locat i
+{
+	margin-right:10px
+}
+.mask
+{
+	background-image: url(../images/Mask\ Group.png);
+	background-repeat: no-repeat;
+   background-position:left top center;
+	padding:100px;
+	padding-bottom:50px;
+	margin-top:30px;
+}
+.mask h1 , .mask h2
+{
+	font-weight: bolder;
+}
+.mask .col-xs-6
+{
+	margin-top: 10px;
+}
+.mask .col-xs-6 input
+{
+	text-indent:30px;
+	padding:18px 0px;
+}
+.mask .col-xs-6 i
+{
+	position: relative;
+	top:26px;
+	left:10px;
+	
+}
+.Subscrip
+{
+	position:absolute;
+	right:18px;
+	padding:4px 30px;
+	color:white;
+	background-color:black
+}
+.phots h2{
+	text-align: center;
+	font-weight: bold;
+}
+.contli input{
+	text-indent: 20px;
+}
+.flotticon
+{
+	position: relative;
+	color:black;
+	right:175px
+}
+.bgdarck .fa-search
+{
+	position: relative;
+	right:30px;
+	font-weight: bold;
+}
+.meneu
+{
+	margin-top: 30px;
+    text-align: center; 
+}
+.meneu ul li
+{
+	border-bottom:2px solid #eee;
+	font-weight: bold;
+	padding-right: 40px;
+	cursor: pointer;
+}
+.meneu ul
+{
+	display: flex;
+	 
+	padding: 11px
+}
+.meneu ul .active
+{
+	border-bottom:2px solid black;
+}
+.phots{
+	position: relative;
+	left:10px;
+	padding-bottom: 20px;
+	
+}
+.ph{
+	margin-bottom: 20px;
+}
+.phots .lead
+{
+	font-weight: bolder;
+	color:black;
+}
+.bok a{
+	color:#35FF99;
+	font-weight: bold;
+}
+.dot{
+   position: absolute;
+   right:10px;
+   bottom:10px;
+ 
+   border-radius: 100%;
+   color:#35FF99;
+   font-size:40px
+}
+.icon{
+	color:gray
+}
+.photo1
+{
+	height:235px;
+}
+.see{
+	background-color: gainsboro;
+	padding:10px;
+	opacity: .7;
+	cursor: pointer;
+}
+.see:hover{
+	background-color: #35FF99;
+	transition: .4s;
+	border-radius: 20px;
+}
+.past{
+	font-size:30px;
+	font-weight: bold;
+}
+.black
+{
+	background-color: black;
+	padding: 10px;
+	
+}
+.black h2{
+	text-indent: 10px;
+}
+.black div{
+	color:white
+}
+.black ul li{
+	line-height:30px;
+	
+}
+
+.black .col-xs-12{
+	margin-bottom: 30px;
+}
+.ul2 li , .ul2 li a{
+	color:gray;
+	
+}
+.tst .col-sm-2 , .tst .down
+{
+	margin-top:24px
+}
+.tst div hr{
+	height: 1px;
+	 width:30px;
+	  background-color:#35FF99;
+	  position:absolute;
+	  top:10px
+	 
+}
+.tst div  ul{
+	margin-top:10px
+}
+.bbtn input{
+	background-color: #35FF99;
+	padding: 3px 20px;
+	color:black;
+	font-weight:bolder;
+
+}
+.ul2 li .form-control{
+	text-indent:6px
+}
+.ul2 li i{
+	position:relative;
+	top:30px;
+	left:2px;
+	color:black;
+	
+}
+.indbuy a
+{
+	cursor: pointer;
+	position: relative;
+	top:-30px;
+	left:30px;
+	font-size:20px;
+	font-weight: bold;
+	color:gold;
+	padding: 10px;
+	background-color: black;
+	color:white;
+	transition: .4s;
+	border-radius: 20px;
+	animation: opacityimg 1s ease-in-out infinite;
+}
+.indbuy a:hover{
+	color:gold;
+	transition:.5s
+}
+
+/*______________________________________ home2 ________________________________________*/
+ .back{
+	 background-image: url(../images/Asset\ 1-8\ 1.png);
+	 background-position:top center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 padding: 50px 30px;
+ }
+ /*---------------------------------------------2-Event----------------------------------*/
+ .my5 .col-sm-7 .col-xs-12 div i:hover
+{
+   color:#35FF99
+    
+}
+ .bgimg img{
+  width:100%;
+  height: 600px;
+  
+ }
+.bok a:hover{
+  animation: noise 1s ease-in-out;
+} 
+.linkedpages .row ul li
+{
+	animation: opacityimg 2s ease-in-out 2;
+}
+.bgimg{
+	margin-bottom:30px
+}
+.part1 .par
+{
+	color:#35FF99;
+}
+.part1 .number{
+	color:gray;
+	margin-left:13px
+}
+.part1 .node{
+overflow: auto;
+}
+.part1 .subj{
+	font-weight: bold;
+	font-size:30px;
+	color:black;
+}
+.part2{
+	border:1px solid gray;
+	padding-bottom: 20px;
+	background-color:white;
+	
+}
+.part2 .lead
+{
+	font-weight: bolder;
+	color:black;
+	font-size:25px;
+	position: relative;
+	top:20px
+}
+.part2 div .col-xs-6{
+	margin-top:40px;
+	border-top:1px solid #eee;
+	padding-top:20px
+}
+.part2 div .col-xs-6 select{
+	border:1px solid #eee;
+	padding:8px;
+	font-weight: bolder;
+}
+.part2 div .col-xs-6 span{
+	border:1px solid #eee;
+	padding:4px 12px;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+}
+.part2 div .col-xs-6 p
+{
+	font-size:20px;
+	font-weight: bold;
+}
+.part1
+{
+	margin-bottom: 30px;
+}
+.row .part1 .number{
+	position: relative;
+	right:10px
+}
+.dtaz div i{
+	position: absolute;
+	bottom:20px;
+	left:35px;
+	font-weight: bold;
+	color:black
+}
+.dtaz div .fa-envelope
+{
+	color:white;
+}
+.btncart , .btntik
+{
+	color:black;
+	font-weight: bold;
+	padding: 15px 30px;
+	padding-left:40px;
+	background-color: white;
+	border:1px solid gray;
+	display: inline-block;
+}
+.btncart:focus , .btntik:focus
+{
+transform: translateY(-2px);
+}
+.btntik
+{
+	background-color: black;
+	color:white
+}
+.social{
+	position: absolute;
+	line-height: 30px;
+	bottom:-70px;
+	left:-10px;
+}
+.social p{
+	color:gray;
+	
+}
+.social span a{
+	border:1px solid #eee;
+	color:black;
+	font-weight: bold;
+	text-align: center;
+	padding:10px;
+	cursor: pointer;
+	
+}
+.social span a:hover{
+	animation: sizeimg 1s ease-in-out;
+	background-color:#35FF99 ;
+	transition: .5s;
+}
+
+.ul1 li .fa-search{
+	
+	position: relative;
+	cursor: pointer;
+}
+.ser{
+
+	border:1px solid darkblue;
+	position: absolute;
+	left:-100px;
+	top:26px;
+	display: none;
+	
+	
+}
+/*------------------ FAQS------------ */
+.bg .plus:hover , .bg .notplus:hover{
+  color:#35FF99;
+}
+.faqs .key , .Organizer
+{
+	animation: moveleft 2s ease-in-out ;
+}
+
+/*------------------------Contact---------------------*/
+.ul1 li .name{
+  width:30px;
+  height:30px;
+  padding-right:7px
+}
+.contactform img{
+	position: relative;
+	top:30px;
+	left:10px;
+}
+.contactimg {
+	animation: opacityimg 2s ease-in-out ;
+}
+.contactform input , .contactform textarea{
+	text-indent:30px
+}
+.interective div{
+	margin-bottom: 20px;
+}
+.interective div h3{
+	font-weight: bold;
+	color:black;
+	animation: moveleft 1s ease-in-out ;
+}
+.floot{
+	position: relative;
+	top:20px;
+	border-top:1px solid gray;
+	padding-top: 20px;
+	color:gray
+}
+.sendmessage
+{
+ background-color: black;
+ color:white;
+ margin-top:20px;
+ padding:20px;
+ padding-bottom:40px;
+ font-weight: bolder;
+text-align: center;
+}
+.floot .last
+{
+	position: absolute;
+	right: 10px;
+}
+/*-----------------carrt-------------------*/
+.group
+{
+	list-style: none;
+	text-align: center;
+	margin: auto;
+	width:350px
+}
+.cancel
+{
+	cursor: pointer;
+	position:absolute;
+	top:10px;
+	right:20px;
+	font-weight: bold;
+}
+.group li
+{
+text-align: center;
+ margin-left:10px;
+ width: 60px;
+ height: 40px;
+ border:1px solid gray;
+ border-radius: 5px;
+ padding:0px
+}
+
+.group li img {
+	position: relative;
+	top:5px;
+	left:15px
+}
+.group li .img2
+{
+	left:20px
+}
+.group li i , .group li span{
+	position: relative;
+	top:5px;
+
+}
+.bitter
+{
+	color:black
+}
+.numprice{
+	color:#35FF99
+}
+.btnlist .numbtn{
+	margin-left: 20px
+}
+.btnlist .numbtn li{
+	padding:6px 8px;
+	background-color: whitesmoke;
+}
+.shopp{
+	color:black;
+	font-weight: bold;
+	position: relative;
+	left:10px
+}
+.numbtn li
+{
+	cursor: pointer;
+}
+
+.flex{
+display: flex;
+ border-bottom: 1px solid #eee;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+.nonbord
+{
+	border-bottom: 1px solid white;
+}
+.cartul li{
+	margin-bottom: 10px;
+	
+	color:black
+}
+.summary , .cartpric
+{
+	color:black;
+	font-weight: bold;
+	padding:10px;
+	border-bottom: 1px solid #eee;
+}
+ 
+.cartpric
+{
+	margin-bottom: 20px;
+}
+.col-xs-9 .total , .col-xs-3 .total{
+	color:black;
+	font-weight: bold;
+	font-size:18px
+}
+.padcart
+{padding-right:10px}
+.cartapplay
+{
+	color:white;
+	background-color: black;
+	font-weight: bold;
+}
+.cart input{
+	text-indent: 20px;
+	border:1px solid black
+}
+.carticon
+{
+	position:absolute;
+	left:20px;
+	top:6px
+}
+.cartcheck
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.cartborder
+{
+	border:2px solid gray;
+	border-radius: 10px;
+	padding:30px 5px;
+	display: none;
+	position: absolute;
+
+}
+.divhiden div
+{
+	margin-top:20px;
+}
+.imgheader
+{
+	margin-bottom: 20px;
+}
+.divhiden div .btn5
+{
+	color:white;
+	background-color: black;
+	font-weight: bold;
+	padding:6px;
+	padding-bottom:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+/*----------------------sign up -----------------------*/
+.upback , .img3
+{
+	height: 600px;
+}
+.signup
+{
+	color:black;
+	font-weight: bolder;
+	font-size:30px;
+}
+.subjres{
+	animation: tzkrti 1s ease-in-out ;
+}
+.linkedpages
+{
+	margin-top: 40px;
+	text-align: center;
+}
+.linkedpages .row ul
+{
+	position: relative;
+	top:40px;
+	margin-left:30%;
+}
+.linkedpages .row ul li
+{
+	font-size:20px;	
+    margin-left:20px
+}
+.creatnew
+{
+	color:black;
+	font-weight: bolder;
+}
+.formup
+{
+	position: absolute;
+	right:300px;
+	top:20px;
+	padding:30px;
+	border:1px solid white;
+	background-color: white;
+	border-radius: 20px;
+}
+.formup .submitt{
+	background-color: black;
+	color:white;
+	font-weight: bolder;
+	padding:10px;
+	border:1px solid black;
+	text-indent: 0px;
+}
+.formup .submitt1{
+	background-color: black;
+	color:white;
+	font-weight: bolder;
+	padding:10px;
+	border:1px solid black;
+	text-indent: 0px;
+	margin-top:20px
+}
+.formup .fa-eye{
+ position: absolute;
+ right:40px;
+padding-top:10px;
+cursor: pointer;
+opacity: 0.2;
+display: none;
+ 
+}
+
+/*--------reset password----*/
+.formreset
+{
+	padding-top:20px;
+	padding-bottom:30px
+}
+.formreset .submitt{
+	margin-top:20px;
+	text-indent: 9px;
+}
+.subjres
+{
+	position: absolute;
+	left:50px;
+	top:0px;
+	z-index: 2;
+	font-size:20px;
+	font-weight: bolder;
+	
+}
+.formreset .rowres , .formup .rowforget
+{
+	font-weight: bold;
+	position: absolute;
+	right:50px;
+	bottom:43px;
+	color:white;
+	z-index:2;
+}
+.formup .rowforget
+{
+	font-weight: bold;
+	position: absolute;
+	right:50px;
+	bottom:34px;
+	color:white;
+	z-index:2;
+}
+ .formup .rowup 
+{
+	font-weight: bold;
+	position: absolute;
+	right:50px;
+	bottom:110px;
+	color:white;
+	z-index:2;
+}
+.formup a:hover , .formreset a:hover , .formlogin a:hover{
+  text-decoration: none;
+}
+.formup .please{
+	color:black;
+	font-weight: 800;
+}
+.hid{
+	position:absolute;
+	top:12px;
+	right:20px;
+	cursor: pointer;
+}
+.formup .flot{
+	margin-top:60px
+}
+.formup div .alredy
+{
+	color:black;
+	font-weight: 600;
+	
+}
+.formup div a span{
+	color:#35FF99;
+	
+	border-bottom: 1px solid #35FF99;
+}
+
+/*----------------forget-----------*/
+.forget
+{
+	top:150px;
+	padding-bottom: 20px;
+}
+/*---------- log in --------------------*/
+.formlogin .flot
+{
+ padding-top:20px;
+}
+.form-inline .col-xs-2
+{
+	text-indent: 3px;
+	text-align: center;
+	color:black;
+  margin-left:10px;
+  margin-top:20px;
+  border-radius: 3px;
+  height: 40px;
+  background-color: #eee;
+  border:1px solid white
+}
+.form-inline .col-xs-2::placeholder
+{
+	font-weight: bolder;
+	color:black;
+	font-size:24px;
+	position: relative;
+	top:7px
+	
+}
+.otp{
+	top:200px
+}
+.col-xs-12 .notplus
+{
+	display: none;
+}
+.faqs .part{
+	 margin-bottom: 10px;
+	display: none;
+}
+.col-xs-12 .plus , .col-xs-12 .notplus
+{
+	cursor: pointer;
+	position: absolute;
+	right:10px;
+	top:13px;
+	font-weight: bold;
+	color:black;
+	font-size:18px
+}
+.faqs .key
+{
+	text-indent: -10px;
+	font-weight: bolder;
+	font-size:29px
+}
+.faqs .bg
+{
+	padding:10px;
+	background-color: #eee;
+	margin-bottom:10px;
+	color:black;
+	font-weight: bold;
+}
+/*-----------------events-----------*/
+.event .Organizer
+{
+	font-weight: bolder;
+	font-size:23px
+}
+.animate3
+{
+	animation: moveleft 2s ease-in-out;
+}
+.event2animat
+{
+	animation: moveright 1s ease-in-out;
+}
+.event .dash li{
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+  .myevent li{
+	  border:1px solid gray;
+	  text-align: center;
+	  padding: 20px 40px;
+	  border-radius: 10px;
+	  margin-bottom: 20px;
+  }
+  .myevent ul .num
+  {
+	  position:relative;
+	  right:20px
+  }
+  .myevent li .fa-credit-card
+  {
+	 
+	 
+	  border-radius: 50%;
+	  padding:10px;
+	  color:white;
+	  font-size:20px;
+	
+  }
+  .myevent li .fa4 , .myevent li .fa2 , .myevent li .fa3
+  {
+	  position:relative;
+	  right:30px;
+	  top:-10px;
+  }
+  .myevent li .fa1
+  {
+	position:relative;
+	right:5px;
+	top:-10px;  
+	background-color:black;
+  }
+  .myevent li .fa2
+  {
+	 
+	background-color:green;
+  }
+  .myevent li .fa3
+  {
+	 
+	background-color:orange;
+  }
+  .myevent li .fa4
+  {
+ 
+	background-color:red;
+  }
+  .myevent .lead
+  {
+	  font-weight: bold;
+  }
+  .form-group input , .form-group select{
+	  background-color: #eee;
+	 
+  }
+  .form-group
+  {
+	margin-left:60px
+  }
+  .form-group .submitt
+  {
+	  display: block;
+	 
+  }
+ .dash .active
+ {
+	 border-bottom:1px solid black
+ }
+  .flottevent
+  {
+	  margin-top:30px
+  }
+  .my2 , .my3 ,.my4 ,.my5
+  {
+	  display: none
+  }
+ .one:hover , .tow:hover , .three:hover , .four:hover , .five:hover{
+	 font-weight: bold;
+ }
+  .tevent td , .tevent tr{
+   border:1px solid gray
+  }
+  .export div .btn-default{
+	  margin-top: 20px;
+  }
+  .my3  .row table td{
+	  border:1px solid black;
+	  text-align: center;
+  }
+  .my3 p , .my4 p{
+	  font-weight: bold;
+  }
+  .my4 .row {
+	  margin-top:30px;
+	  margin-bottom:30px;
+  }
+  .my4 form div{
+	  margin-top:20px;
+	  margin-bottom:30px;
+  }
+  .my5 .col-xs-12 .lead {
+	 font-weight: bold;
+	 margin-top:30px
+  }
+.my5 .col-sm-7 .col-xs-12
+{
+	display: flex;
+	border: 1px solid gray;
+	margin-top:-3px
+}
+.my5 .col-sm-7 .col-xs-12 div
+{
+	margin-left:30px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+  .tr1 td{
+   font-weight: bold;
+  }
+   .form-inline{
+	margin-bottom: 0px;
+   }
+    .form-inline .btn-success{
+		color:black;
+		font-weight: bold;
+		
+	}
+	.my5 .saveChange
+{
+	margin-bottom: 20px;
+	padding: 10px;
+	font-weight: bold;
+	position: relative;
+	top:30px;
+
+}
+.pageby  .bg
+{
+	border:1px solid gold ; 
+	border-radius: 7px;
+	margin-top:100px;
+	margin-bottom:400px;
+	padding:10px;
+	padding-left:30px;
+	overflow: hidden;
+    height: 400px;
+	animation: moveleft 1s ease-in-out;
+}
+.pageby{
+	background-color: black;
+	 margin: auto;
+}
+.BUY .ul1{
+	display: flex;
+	margin-bottom: 30px;
+	font-weight: bolder;
+	font-size:20px;
+	cursor: pointer;
+}
+
+
+.activeli{
+	transition:.7s;
+  border-bottom:2px solid gold;
+  color:gold
+}
+ .pageby div .fa-th-large{
+	position: absolute;
+	top:25px;
+	right:20px;
+	color: gold;
+	font-size:20px;
+	animation: opacityimg 1s ease-in-out infinite;
+}
+.list2 .ul2{
+	display: flex;
+}
+.write .text-right
+{
+  color:gray;
+  margin-right:35px;
+
+}
+.sell2 .list2
+{
+	margin-bottom:15px
+}
+.list2 .ul2 li select
+{
+	padding:11px;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	position: relative;
+	right:3px;	
+	border:none;
+	border-left:1px solid black;
+	background-color: black;
+	border:1px solid gray
+}
+.list2 .ul2 li input
+{
+	background-color: black;
+	padding:10px ;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	 border:1px solid gray
+}
+.list2 .ul2 li select:focus , .list2 .ul2 li input:focus
+{
+	outline: none;
+}
+.list2 label
+{
+	color:white;
+	font-weight: bold;
+}
+.BUY .list3 
+{
+	display: flex;
+}
+.BUY .list3 li
+{
+	border:1px solid gray;
+	padding:10px;
+	border-radius: 6px;
+	font-family:'Times New Roman', Times, serif;
+	margin-top:10px
+}
+.BUY .list3  .vesa
+{
+	margin-left: 10px;
+	padding: 10px 15px;
+	color:darkcyan
+	
+}
+.BUY .list3  .up
+{
+	padding: 10px 24px;
+	color:white
+	
+}
+.BUY .list3 li span{
+	font-weight: bold;
+	font-size:17px;
+	position: relative;
+	left:7px
+}
+.BUY div .bg-lg
+{
+	background-color:gold;
+	box-shadow: 1px 1px -px 1px gold;
+	border-radius: 5px;
+	color:black;
+	font-weight: bolder;
+	font-size:15px;
+	margin-top:20px;
+	margin-bottom:20px;
+	opacity: .8;
+}
+.BUY div .bg-lg:hover{
+	opacity: .9;
+	transition: .3s;
+}
+.sell2
+{
+	display: none;
+}
+.sell3 .top{
+	
+	color:white;	
+	margin-bottom:20px;
+}
+.sell3 .top span{
+	position: absolute;
+	right:10px;
+	color:gray;
+	font-weight: bold;
+		
+}
+.sell3 .list2 label
+{
+	color:gray
+}
+.sell3 .list2 i
+{
+	font-size:15px
+}
+.sell3 .list2 .select3
+{
+	border:none;
+	color:red;
+	direction:rtl;
+	position: relative;
+	top:10px;
+	left:6px
+}
+.sell3 .list2 .sel1 span{
+	position:absolute;
+	right:18px;
+	color:white;
+	padding-top:10px;
+	padding-right:5px
+}
+.sell3 .list2 .sel1
+{
+	border:1px solid gray;
+	border-top:none;
+}
+.sell3 .top span i{
+margin-right:10px
+		
+}
+.sell3 .list2 .select3{
+margin-bottom:20px;
+border-radius: 0px;
+ background-color: black;
+ border-color:gray
+}
+.sell3 .list2 
+{
+	margin-bottom:20px
+}
+.sellnow , .continue , .bg-lg
+{
+	box-shadow: 2px 2px 10px gold;
+}
+/*------creste event--------------*/
+.formeven3
+{
+	animation:movetop 1s ease-in-out;
+}
+.numberone
+{
+	color:black;
+	font-weight:bold;
+}
+.numbertow{
+	opacity:.8;
+}
+.createEvent .text
+{
+	color:black;
+	font-weight: bolder;
+	font-size:20px
+}
+.inputEvent div{
+	margin-top:10px;
+	margin-bottom:30px
+}
+.inputEvent div .btn-success
+{
+	color:black;
+	font-weight: bold;
+}
+/*-----event2------------*/
+.forbanner
+{
+	font-weight: bold;
+	color:black
+}
+.upload
+{
+	background-color: rgb(228, 224, 224);
+	padding:100px 0px;
+	margin-bottom:20px
+}
+.upload img
+{
+margin: auto;
+}
+.eventfloot textarea
+{
+border: 1px solid gray;
+border-bottom:none;
+}
+.eventfloot .dd1
+{
+  display: flex;
+  border:1px solid gray;
+  position: relative;
+	top:-10px
+}
+.eventfloot .dd1 div{
+	display: flex;
+	text-align: center;
+	padding:10px;
+	
+}
+.eventfloot .dd1 div i{
+cursor: pointer;
+}
+a:hover{
+	text-decoration: none;;
+}
+.eventfloot .dd1 div i{
+	margin-left:20px;
+	
+
+}
+.eventfloot
+{
+	margin-bottom:30px
+}

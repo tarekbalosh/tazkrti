@@ -1,0 +1,1019 @@
+@media(max-width:765px)
+{
+   
+   
+    .navbar-collapse{
+        background-color: black;
+        opacity: .9;
+       
+    }
+     .ul1 .li1
+    {
+        color:white;
+    }
+    .navbar-nav li a 
+    {
+        color:lightblue
+    }
+   
+  
+    ::placeholder
+    {
+        font-size:12px;
+    }
+    .ulcheck
+{
+	display:flex;
+	margin-left:0px;
+ 
+}
+
+   .mask{
+       padding:10px;
+   }
+   .mask h2{
+           font-size:20px;
+           font-weight: bold;
+   }
+   .mask h1{
+           font-size:24px;
+           font-weight: bold;
+   }
+  .Subscrip
+  {
+      padding:5px 10px
+  }
+  .flotticon
+  {
+      position: absolute;
+      color:black;
+     
+  }
+  .meneu ul li
+  {
+      border-bottom:2px solid #eee;
+      
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  .number{
+      font-size:12px
+  }
+  .photo1
+{
+	height:140px;
+}
+.black div{
+    margin-top: 10px;
+   
+}
+.black ul li{
+	line-height:23px
+}
+.black h2{
+    font-size:20px
+}
+.black div .tzkrti
+{
+    font-size:30px
+}
+.tst h2{
+    font-size:15px
+}
+.tst .row div h5{
+    font-size:11px;
+   
+}
+.black div h5{
+    margin-top:40px;
+   
+}
+.tst1  div h5{
+    position: relative;
+    top:-10px;
+
+}
+.tst ul li{
+    font-size:10px
+}
+.tst div hr{
+    top:24px
+}
+.bbtn input{
+	background-color: #35FF99;
+	padding: 0px 10px;
+	color:black;
+	font-weight:bolder;
+
+}
+.ul2 li{
+	color:gray;
+	line-height: 9px;
+}
+/*__________________*/
+
+.part1 .subj{
+	font-weight: bold;
+	font-size:17px;
+	color:black;
+}
+.btncart , .btntik
+{
+	
+	padding: 15px 20px;
+    padding-left: 30px;
+
+}
+.dtaz div i{
+	position: absolute;
+	bottom:20px;
+	left:33px;
+	
+}
+ .map{
+     margin-top: 100px;
+ }
+ .ul1 li i{
+    color:white
+ }
+ .ser{
+	border:1px solid darkblue;
+	position: absolute;
+	left:30px;  
+    top: -30px;
+	display: none;
+	
+  
+}
+/* -------contact-------- */
+
+.listcont li .btn{
+    width:80px;
+    text-indent: -3px;
+    font-size:11px;
+    position: absolute;
+    bottom: 50px;
+    right:2px;
+}
+/*------cart-----------------*/
+.col-xs-9 .total , .col-xs-3 .total{
+	color:black;
+	font-weight: bold;
+	font-size:16px
+}
+.group li
+{
+    margin-left:5px
+}
+/*-------sign up -------------*/
+.formup
+{
+	position: absolute;
+	right:20px;
+	top:10px;;
+    height:300px;
+    overflow: auto;
+    
+}
+.formup .fa-long-arrow-right
+{
+	font-weight: bold;
+	position: absolute;
+	bottom:-75px;
+	color:white;
+	z-index:2;
+}
+.formreset{
+    height:300px;
+}
+
+.formreset .please
+{
+    font-size:8px;
+    font-weight: bold;
+}
+.formreset .Reset
+{
+    font-size:14px
+}
+.signup
+{
+	color:black;
+	font-weight: bolder;
+	font-size:20px;
+}
+.img3{
+    height:350px
+}
+.formup .fa-eye{
+    position: absolute;
+    right:35px;
+   padding-top:10px;
+   cursor: pointer;
+   opacity: 0.6;
+    
+   }
+   .formup ::placeholder{
+       font-size:10px
+   }  
+   .formup img{
+       width: 15px;
+       height: 15px;
+       position: relative;
+       top:25px
+   }
+   .formup input{
+       text-indent:16px
+   }
+   .formup div .alredy
+{
+	color:black;
+	font-weight: 300;
+    font-size:9px
+	
+}
+.hid{
+	position:absolute;
+	top:4px;
+	right:10px;
+	cursor: pointer;
+}
+/*----reset pass2word---*/
+.Reset
+{
+    font-size:14px;
+  
+}
+/*------forget password-----------------*/
+.forget .submitt{
+    font-size:10px;
+    text-indent: 0px;
+}
+/*----otp----*/
+.form-inline .col-xs-2
+{
+    width:43px;
+  margin-left:10px;
+  margin-top:20px;
+  border-radius: 3px;
+  height: 40px;
+  background-color: #eee;
+  border:1px solid white
+}
+/*------------------------*/
+.faqs .bg
+{
+	
+	font-weight: normal;
+}
+.event .dash li{
+    margin-left: 10px;
+  }
+ 
+  .myevent li .fa4 , .myevent li .fa2 , .myevent li .fa3
+{
+    position:relative;
+   right:35px
+}
+.myevent ul .num
+{
+    position:relative;
+    right:20px
+}
+.form-group
+{
+  margin-left:20px
+}
+ .form-inline .submitt 
+{
+    
+    width:70px;
+    margin:auto
+}
+ .export div{
+     margin-left:40px;
+ }
+ .my4 form div label , .my5 form div label
+ {
+   font-size:10px
+ }
+ .my5 .col-sm-7 .col-xs-12 div
+{
+    
+	margin-left:14px;
+    text-align: left;
+}
+ .my5 .container  .row form div
+{
+    
+	margin-bottom:14px;
+    
+}
+/*-----------------------*/
+.list2 .ul2 li select
+{
+	padding:9px;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	position: relative;
+	right:3px;	
+	
+	
+}
+.pageby  .bg
+{
+	
+	padding-left:0px
+}
+.write .text-right
+{
+  color:gray;
+  margin-right:0px;
+
+}
+/*----------event---------------*/
+.my5 .col-sm-7 .col-xs-12 div
+{
+    margin-top:10px
+    
+}
+.checkdate
+{
+    font-size:9px;
+    font-weight: bold;
+}
+.eventfloot .dd1 div i{
+	margin-left:3px;
+	
+}
+.linkedpages .row ul
+{
+    position: relative;
+    top:0px;		
+    margin-left:20px
+}
+.linkedpages .row ul li
+{
+	font-size:16px;	
+    margin-left:10px
+}
+.social  .facebook{
+    margin-left:15px
+}
+}
+@media(width:768px)
+{
+    ul .FAQSfaqs a
+    {
+           position: absolute; 
+                   
+    }
+    .flotfaqs{
+ width: 106%;
+ margin-left:9px
+    }
+    ul .contactfaqs a
+    {
+           position: relative;
+           top:-3px 
+                   
+    }
+    .pageby  .bg
+    {
+       margin-left:27%
+    }
+    .navbar-collapse .navbar-nav{
+        position: relative;
+        left:40px;
+    }
+    .photo1
+    {
+        height:140px;
+    }
+ s
+    .meneu ul li
+    {
+        border-bottom:2px solid #eee;
+        
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .back , .bgdarck{
+        width:800px;
+        position: relative;
+        left:9px
+    }
+    .bgdarck2 img{
+        position: relative;
+        left:10px;
+        width:800px
+    }
+    .bgdarck2{
+        width:850px
+    }
+    /*------------------contat ---------------*/
+    .ser{
+        border:1px solid darkblue;
+        position: absolute;
+        left:20px;
+        bottom: -10px;
+        display: none;
+        z-index: 1;
+      
+    }
+    /*------sign up ------*/
+    .formup
+{
+	position: absolute;
+	right:50px;
+	top:30px;;
+  
+    
+}
+.forget .submitt{
+    font-size:18px;
+    text-indent: 0px;
+}
+  .faqs , .fq{
+   position: relative;
+     left:70px
+  }
+  .faqs .key
+  {
+      position: relative;
+      left:-30px
+  }
+  .myevent div ul{
+    display: flex;
+    width:1000px
+}
+.myevent div ul li{
+    margin-left:10px;
+}
+.myevent ul .num
+{
+    position:relative;
+    right:20px
+}
+.form-group
+{
+  margin-left:10px
+}
+/*.input , .form-inline
+{
+   
+}*/
+.form-inline .submitt{
+    position: absolute;
+    left:35%;
+     margin:30px;
+     }
+     .flottevent
+     {
+         margin-top:100px;
+         margin-left:70px;
+     }
+     .tar{
+         position:relative;
+         left:40px
+     }
+     .tevent {
+       
+         margin-top:30px;
+        
+     }
+     .dash2 .form-group
+     {
+         position:relative;
+         left: 110px;
+         margin-bottom: 10px;
+         margin-top: 10px;
+     }
+     .export{
+        position: relative;
+        left:300px;
+         margin:auto
+     }
+     .BUY .list3  .vesa
+     {
+         margin-left: 30px;
+          
+     }
+     /*----------------*/
+     .cartborder
+     {
+         width:400px;
+         margin-left:200px
+     }
+   
+}
+@media(width:280px)
+{
+   .col8 .photo1
+   {
+       height:100px
+   }
+    .linkedpages .row ul li
+{
+	font-size:11px;	
+    font-weight: bold;
+    margin-left:8px
+}
+    .flex div img{
+        position: absolute;
+        left:-3px;
+        height:40px
+    }
+    .col-xs-12 .floot li{
+        font-size:8px;
+        margin-left:-10px
+    }
+    .floot .last{
+       position: relative;
+       left:40px;
+    }
+    .col-xs-6 .emil{
+       width:120px
+    }
+    .col-xs-6 .Subscrip
+    {
+        right:0px
+    }
+   
+    .ul1 li{
+        margin-left:5px
+    }
+    .tst h2{
+        font-size:15px
+    }
+    .tst div h5{
+        font-size:9px
+    }
+    .tst ul li{
+        font-size:10px
+    }
+    .phots .lead{
+        font-size:13px
+    }
+    .phots .bok{
+        font-size:10px
+    }
+    .phots .dot{
+        font-size:34px;
+        bottom:14px;
+    }
+  .bgimg img{
+      height: 200px;
+  }
+  .part1 .par{
+      font-size:10px
+  }
+  .part1 .subj
+  {
+      font-size:12px;
+      font-weight: bolder;
+  }
+  .ul1 .btn
+  {
+      padding: 3px 0px;
+      width:70px;
+      font-size:10px
+  }
+  .btncart , .btntik
+{
+    font-size:11px;
+	padding: 10px ;
+	padding-left: 25px ;
+  
+}
+.dtaz div i{
+	position: absolute;
+	bottom:13px;
+	left:27px;
+	
+}
+.eventplus
+{
+ position: relative;
+ top:10px;
+ right:20px
+}
+  .bgdarck i{
+    position: relative;
+    left:-16px;
+    font-size:10px
+}
+
+.cart input{
+	text-indent: 20px;
+    width:120px
+}
+.dellever{
+    font-size:10px;
+   line-height: 20px;
+    
+}
+.padcart{
+  padding-right:30px
+}
+/*----sign up------------*/
+.formup
+{
+	overflow: auto;
+    height: 220px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+ .formup .submitt {
+    font-size:12px;
+    
+}
+.formup .creatnew
+{
+    font-size:8px;
+    font-weight: normal;
+}
+.formup .fa-eye{
+    right:10px
+}
+.img3 , .upback{
+    height: 260px;
+}
+/*-------erset password -----------------*/
+.formreset
+{
+	padding-top:25px;
+	padding-bottom:30px
+}
+.formreset .submitt{
+	margin-top:-10px;
+	text-indent: 0px;
+}
+.forget .submitt{
+    font-size:10px;
+}
+.subjres
+{
+	position: absolute;
+	left:19px;
+	top:-18px;
+	z-index: 2;
+	font-size:20px;
+	font-weight: bolder;
+}
+.form-inline .col-xs-2
+{
+	text-indent: 2px;
+	margin-bottom: 0px;;
+}
+.form-inline .submitt{
+    margin-top: 30px;
+  position: relative;
+  top:-20px;
+  padding:10px
+}
+.list2 .ul2 li input
+{
+	
+width:120px
+}
+.my5 .col-sm-7 .col-xs-12 div
+{
+    margin-left:12px;
+    
+}
+.my5 div form div .invoice
+{
+   font-size:9px
+}
+.my5 div form div .invoice2
+{
+   font-size:8px
+}
+/*------cart--------*/
+.group
+{
+  margin-left:-50px
+}
+.ser{
+    width:150px;
+    left:0px
+}
+}
+@media(width:1024px)
+{
+    ul .contactfaqs a
+    {
+           position: absolute;
+          
+           
+    }
+    .pageby  .bg
+    {
+       margin-left:26%;
+       padding-left:50px
+    }
+    .photo1
+    {
+        height:190px;
+    }
+ 
+    .dtaz div i{
+        position: absolute;
+        bottom:20px;
+        left:55px;
+        
+    }
+    /*-------------sign up-------------*/
+    .formup
+    {
+        position: absolute;
+        right:150px;
+        top:30px;
+        width:300px    
+        
+    }
+    .formup .submitt
+    {
+        font-weight: bolder;
+        font-size:20px
+    }
+    .formup .creatnew
+    {
+        font-size:18px;
+        font-weight:600;
+    }
+    .form-inline .col-xs-2
+{
+	width:49px
+}
+.myevent ul{
+    display: flex;
+}
+.myevent ul li{
+    margin-left:10px
+}
+
+.myevent .l4 , .myevent .l3 , .myevent .l2
+{
+     padding-right:50px;
+     padding-left:50px;
+}
+.form-inline .submitt{
+    position: absolute;
+     top:70px;left:45%;
+     margin:30px;
+     }
+     .flottevent
+     {
+         margin-top:100px
+     }
+     .tevent{
+        
+         margin-top:40px;
+       
+
+     }
+     .form-group 
+     {
+         margin-top:30px;
+         position: relative;
+         left:130px
+       
+     }
+     .my1   .container .row .form-inline  .form-group 
+  {
+    margin-top:30px;
+    position: relative;
+    left:0px
+  }
+     .export{
+         margin-left:300px
+     }
+     .list2 .ul2 li input
+    {
+	
+      width:300px
+    }
+    .BUY .list3  .vesa
+    {
+        margin-left: 70px;
+         
+    }
+    .BUY .list3  .up
+    {
+        margin-left: 50px;
+         
+    }
+    /*----cart--------------*/
+    .cartborder
+    {
+     
+        margin-left:300px
+    }
+}
+@media(width:360px)
+{
+ 
+    .meneu ul li
+    {
+        border-bottom:2px solid #eee;
+        
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media(width:540px)
+{
+   
+    .photo1
+    {
+        height:215px;
+    }
+    .dtaz div i{
+        position: absolute;
+        bottom:22px;
+        left:76px;
+        
+    }
+    .form-inline .col-xs-2
+{
+  margin-left:0px;
+  margin-top:20px;
+  border-radius: 3px;
+  height: 40px;
+  background-color: #eee;
+  border:1px solid white
+}
+.tevent{
+    width:100%
+}
+ /*---------------------*/
+ .pageby  .bg
+{
+	
+	padding-left:60px;
+	padding-right:-60px;
+}
+}
+@media(width:320px)
+{
+   .phots .bok{
+        font-size:13px
+    }
+    .ul1 .btn
+    {
+        padding: 3px 0px;
+        width:70px;
+        font-size:10px
+    }
+    .bgdarck i{
+        position: relative;
+        left:-16px;
+        font-size:10px
+    }
+    .btncart , .btntik
+{	
+	padding: 10px 20px;
+    padding-left:23px;
+  
+}
+.dtaz div i{
+	position: absolute;
+	bottom:15px;
+   
+	left:19px;
+	
+}
+/*----cart------*/
+.group
+{
+  margin-left:-30px
+}
+/*--------------------sign up----------  */
+.formup .submitt {
+    font-size:9px;
+    text-indent: 0px;
+
+
+}
+.form-inline .col-xs-2
+{
+  margin-left:0px;
+  margin-top:20px;
+  border-radius: 3px;
+  height: 40px;
+  background-color: #eee;
+  border:1px solid white
+}
+/*----------------*/
+.list2 .ul2 li input
+{
+	
+width:150px
+}
+.dtaz div i{
+    position: absolute;  
+    left:22px;    
+}
+}
+@media(min-width:1025px)
+{
+    .part2{
+
+  
+    position: relative;
+	top:-200px;
+    right:-140px;
+	width: 360px;
+}
+.photo1
+{
+    height:233px;
+}
+.btnlist .numbtn{
+	margin-left: 70px
+}
+.subjres
+{
+	position: absolute;
+	left:200px;
+	top:10px;
+	z-index: 2;
+	font-size:40px;
+	font-weight: bolder;
+}
+.myevent div ul{
+    display: flex;
+  
+}
+.myevent div ul li{
+    margin-left:20px
+  
+}
+.myevent .l4 , .myevent .l3 , .myevent .l2
+{
+     padding-right:65px;
+     padding-left:65px;
+}
+.input .form-inline
+{
+    display: flex;
+}
+ .form-inline .submitt{
+position: absolute;
+ top:70px;left:45%;
+ margin:30px;
+ }
+ .flottevent
+ {
+     margin-top:120px
+ }
+ .form-group 
+  {
+      margin-top:30px;
+	  margin-left:150px;
+  }
+  .my1 .myevent{
+      margin-top:20px
+  }
+.my1   .container .row .form-inline  .form-group 
+  {
+      margin-top:30px;
+	  margin-left:80px;
+  }
+  .tevent td{
+      padding:10px 20px
+  }
+  .tevent
+  {
+	  margin-top:60px;
+    
+  }
+  /*---BUY---------*/
+  .pageby  .bg
+  {
+     margin-left:30%
+  }
+  /*---------cart*/
+  .cartborder
+  {
+      margin-left:300px
+  }
+
+}
+@media(width:411px)
+{
+    .dtaz div i{
+        position: absolute;  
+        left:45px;    
+    }
+}
+@media(width:414px)
+{
+    .dtaz div i{
+        position: absolute;  
+        left:45px;    
+    }
+}

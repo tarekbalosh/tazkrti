@@ -1,0 +1,112 @@
+@keyframes noise
+{
+    0%{
+       
+        color:red
+    }
+    100%{
+       
+        color:#35FF99;
+       
+    }
+   
+}
+@keyframes sizeimg
+{
+    0%{
+       
+      position: relative;
+      right:3px
+    }
+    100%{
+       
+      position: relative;
+      right:-3px
+    } 
+}
+@keyframes control
+{
+    0% ,50%{
+     transition: .3s;
+     opacity: 5;
+     
+
+    }
+    100%{
+       transition: .3s;
+     opacity: 1;
+     color:#35FF99
+    } 
+}
+@keyframes opacityimg
+{
+    0% {
+   
+     opacity: .1;
+     
+
+    }
+    100%{
+      
+     opacity: 1;
+   
+    } 
+}
+@keyframes tzkrti
+{
+    0% {
+    color:darkred;
+    margin-top: -60px;
+    opacity: .3;
+    }
+
+    100%{
+      opacity: 1;
+      margin-left: 0px;
+     color:darkred
+    } 
+}
+@keyframes moveleft
+{
+    0% {
+   position: relative;
+   opacity: .2;
+   left:-600px;
+
+    }
+
+    100%{
+      position: relative;
+      opacity: 1;
+      left:0px;
+      
+    } 
+}
+@keyframes moveright
+{
+    0% {
+   position: relative;
+   opacity: .2;
+   right:-300px
+    }
+
+    100%{
+      position: relative;
+      opacity: 1;
+      right:0px
+    } 
+}
+@keyframes movetop
+{
+    0% {
+   position: relative;
+   opacity: .2;
+   top:-300px
+    }
+
+    100%{
+      position: relative;
+      opacity: 1;
+      top:0px
+    } 
+}
