@@ -802,7 +802,7 @@
                     <label style="font-weight:bold" for="message"> message</label>
                 </div>
                 <div class="col-75">
-                    <textarea style="resize:none" cols="" rows="" required id="message" name="message" placeholder="Your message..."> </textarea>
+                    <textarea style="resize:none" cols="40" rows="4" required id="message" name="message" placeholder="Your message..."> </textarea>
                 </div>
             </div>
            
@@ -835,17 +835,21 @@
         }
 
 
-        function submitForm() {
-            var name = document.getElementById("name").value;
-            var message = document.getElementById("message").value;
+       function submitForm() {
+  var nameInput = document.getElementById("name");
+  var messageInput = document.getElementById("message");
 
-            var text = `Name: ${name} \nmesssage: ${message}`;
-            var message = encodeURIComponent(`Name: ${name} \nmessage: ${message}`);
-            var phoneNumber = "601169397149";
+  var name = nameInput.value;
+  var message = messageInput.value;
 
-            var url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url);
-        }
+  var formattedMessage = `Name: ${name}\nMessage: ${message}`;
+
+  var encodedMessage = encodeURIComponent(formattedMessage);
+  var phoneNumber = "601169397149";
+
+  var whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  window.open(whatsappURL);
+}
 
     function search() {
       var input, filter, elements, i, txtValue;
