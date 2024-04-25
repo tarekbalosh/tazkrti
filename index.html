@@ -799,34 +799,14 @@
             </div>
             <div class="row">
                 <div class="col-25">
-                    <label style="font-weight:bold" for="company"> Company</label>
+                    <label style="font-weight:bold" for="message"> message</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" required id="company" name="company" placeholder="Your company..">
+                    <textarea style="resize:none" cols="" rows="" required id="message" name="message" placeholder="Your message..."> </textarea>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label style="font-weight:bold" required for="country">Enquiry For</label>
-                </div>
-                <div class="col-75">
-                    <input type="radio" id="Physical" name="fav_language" value="Physical" required>
-                    <label for="Physical Properties Testing">Physical Properties Testing</label><br>
-                    <input type="radio" id="NDT" name="fav_language" value="NDT">
-                    <label for="NDT">NDT</label><br>
-                    <input type="radio" id="Gagemaker" name="fav_language" value="JavaScript">
-                    <label for="Gagemaker">Gagemaker</label><br>
-
-
-                    <input type="radio" id="General Engineering" name="fav_language" value="General Engineering">
-                    <label for="Calibration">ISO17025 Calibration</label><br>
-
-                    <input type="radio" id="Service" name="fav_language" value="Service">
-                    <label for="Service">Service</label><br>
-                    <input type="radio" id="Other" name="fav_language" value="Other">
-                    <label for="Other">Other</label>
-                </div>
-            </div>
+           
+           
 
             <div class="row">
                 <input type="submit" value="Send on WhatsApp" onclick="submitForm()">
@@ -857,11 +837,10 @@
 
         function submitForm() {
             var name = document.getElementById("name").value;
-            var company = document.getElementById("company").value;
-            var selectedEnquiry = document.querySelector('input[name="fav_language"]:checked').value;
+            var message = document.getElementById("message").value;
 
-            var text = `Name: ${name} \nCompany: ${company} \nEnquiry For: ${selectedEnquiry}`;
-            var message = encodeURIComponent(`Name: ${name} \nCompany: ${company} \nEnquiry For: ${selectedEnquiry}`);
+            var text = `Name: ${name} \nmesssage: ${message}`;
+            var message = encodeURIComponent(`Name: ${name} \nmessage: ${message}`);
             var phoneNumber = "601169397149";
 
             var url = `https://wa.me/${phoneNumber}?text=${message}`;
