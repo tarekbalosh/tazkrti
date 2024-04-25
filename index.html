@@ -99,7 +99,7 @@
     </style>
 </head>
 
-<body>
+<body class="searchable">
     <div class="">
         <nav class="navbar-expend-md container " role="navigation">
             <div class="col-xs-4">
@@ -161,7 +161,7 @@
                 <div class="moveleft">
                     <span class="music">music</span>
 
-                    <input type="search" class="inp" name="" id="" placeholder="search somthing here">
+                    <input type="search" class="inp"  onkeyup="search()" name="" id="" placeholder="search somthing here">
                     <i class="fa fa-search"></i>
                 </div>
             </div>
@@ -867,6 +867,22 @@
             window.open(url);
         }
 
+    function search() {
+      var input, filter, elements, i, txtValue;
+      input = document.getElementById('searchInput');
+      filter = input.value.toUpperCase();
+      elements = document.getElementsByClassName("searchable");
+
+      for (i = 0; i < elements.length; i++) {
+        txtValue = elements[i].textContent || elements[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          elements[i].style.display = "";
+        } else {
+          elements[i].style.display = "none";
+        }
+      }
+    }
+ 
 
     </script>
 
