@@ -73,14 +73,14 @@ $(".fam").click(function(){
      let currentTotal = parseFloat($(".total-tiket").text().replace('$', ''));
      if(typetiket == "Card($29)")
      {
-      currentTotal += 29 ;
+      currentTotal = currentTotal + 29 ;
      }
      else  if(typetiket == "Card($24)")
          {
-      currentTotal += 24 ;
+      currentTotal = currentTotal + 24 ;
      }
-     else   currentTotal += 20 ;
-     $(".total-tiket").text(`$${currentTotal}`);
+     else   currentTotal = currentTotal + 20 ;
+     $(".total-tiket").text(`$${currentTotal.toFixed(2)}`);
   })
 /*$(".eventplus").click(() => {
     // Get the selected ticket type value
