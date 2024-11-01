@@ -81,6 +81,7 @@ $(".fam").click(function(){
      }
      else   currentTotal = currentTotal + 20 ;
      $(".total_tiket").text(`$${currentTotal.toFixed(2)}`);
+     alert("hi");
   })
 /*$(".eventplus").click(() => {
     // Get the selected ticket type value
