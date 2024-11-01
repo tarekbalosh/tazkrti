@@ -67,8 +67,8 @@ $(".fam").click(function(){
 });
 //--------2-event--------------------
   $(".eventplus").click(()=>{
-     var typetiket = $(".type-tiket").value();
-      let total_tiket =   $(".total-tiket").value();
+     var typetiket = $(".type-tiket").val();
+      let total_tiket =   $(".total-tiket").val();
      if(typetiket == "Card($29)")
      {
       total_tiket += 29 ;
