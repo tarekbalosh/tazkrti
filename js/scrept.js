@@ -78,6 +78,7 @@ $(".fam").click(function(){
       total_tiket += 24 ;
      }
      else   total_tiket += 20 ;
+     $(".total-tiket").text(total_tiket);
   })
 /*----sign up ----------------*/
 $(".pas1").click(function(){
