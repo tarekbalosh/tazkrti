@@ -65,6 +65,20 @@ $(".fam").click(function(){
     $(this).addClass('active');
     $(".mov , .thera , .mu").removeClass('active');
 });
+//--------2-event--------------------
+  $(".eventplus").click(()=>{
+     var typetiket = $(".type-tiket").value();
+      let total_tiket =   $(".total-tiket").value();
+     if(typetiket == "Card($29)")
+     {
+      total_tiket += 29 ;
+     }
+     else  if(typetiket == "Card($24)")
+         {
+      total_tiket += 24 ;
+     }
+     else   total_tiket += 20 ;
+  })
 /*----sign up ----------------*/
 $(".pas1").click(function(){
     $(".fa1").fadeIn(1000)
