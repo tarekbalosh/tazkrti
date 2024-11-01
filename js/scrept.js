@@ -79,7 +79,7 @@ $(".eventplus").click(() => {
     // Determine the ticket price based on the selected option
     let ticketPrice = 0;
     if (typetiket === "29") {
-        ticketPrice = 29;
+        ticketPrice = 29;  
     } else if (typetiket === "24") {
         ticketPrice = 24;
     } else {
