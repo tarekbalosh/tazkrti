@@ -65,21 +65,46 @@ $(".fam").click(function(){
     $(this).addClass('active');
     $(".mov , .thera , .mu").removeClass('active');
 });
+
+
 //--------2-event--------------------
   $(".eventplus").click(()=>{
-     var typetiket = $(".type-tiket").val();
+     var typetiket = $(".type_tiket").val();
      let currentTotal = parseFloat($(".total-tiket").text().replace('$', ''));
      if(typetiket == "Card($29)")
      {
-      total_tiket += 29 ;
+      currentTotal += 29 ;
      }
      else  if(typetiket == "Card($24)")
          {
-      total_tiket += 24 ;
+      currentTotal += 24 ;
      }
-     else   total_tiket += 20 ;
+     else   currentTotal += 20 ;
      $(".total-tiket").text(`$${currentTotal}`);
   })
+/*$(".eventplus").click(() => {
+    // Get the selected ticket type value
+    let typetiket = $(".type_tiket").val();
+    
+    // Get the current total from the text and remove the "$" sign, then parse it as a float
+    let currentTotal = parseFloat($(".total_tiket").text().replace('$', ''));
+
+    // Determine the ticket price based on the selected option
+    let ticketPrice = 0;
+    if (typetiket === "29") {
+        ticketPrice = 29;
+    } else if (typetiket === "24") {
+        ticketPrice = 24;
+    } else {
+        ticketPrice = 20;
+    }
+
+    // Update the total by adding the selected ticket price
+    let newTotal = currentTotal + ticketPrice;
+
+    // Update the total displayed on the page
+    $(".total_tiket").text(`$${newTotal.toFixed(2)}`);
+});
 /*----sign up ----------------*/
 $(".pas1").click(function(){
     $(".fa1").fadeIn(1000)
