@@ -70,7 +70,7 @@ $(".fam").click(function(){
 //--------2-event--------------------
   $(".eventplus").click(()=>{
      var typetiket = $(".type_tiket").val();
-     let currentTotal = parseFloat($(".total-tiket").text().replace('$', ''));
+     let currentTotal = parseFloat($(".total_tiket").text().replace('$', ''));
      if(typetiket == "Card($29)")
      {
       currentTotal = currentTotal + 29 ;
@@ -80,7 +80,7 @@ $(".fam").click(function(){
       currentTotal = currentTotal + 24 ;
      }
      else   currentTotal = currentTotal + 20 ;
-     $(".total-tiket").text(`$${currentTotal.toFixed(2)}`);
+     $(".total_tiket").text(`$${currentTotal.toFixed(2)}`);
   })
 /*$(".eventplus").click(() => {
     // Get the selected ticket type value
