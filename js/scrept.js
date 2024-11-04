@@ -71,16 +71,16 @@ $(".fam").click(function(){
 
 $(".eventplus").click(() => {
     // Get the selected ticket type value
-    let typetiket = $(".type_tiket").val();
+    let currentTotal = $(".type_tiket").val();
     
     // Get the current total from the text and remove the "$" sign, then parse it as a float
     let currentTotal = parseFloat($(".total_tiket").text().replace('$', ''));
 
     // Determine the ticket price based on the selected option
     let ticketPrice = 0;
-    if (typetiket === "29") {
+    if (currentTotal === "29") {
         ticketPrice = 29;  
-    } else if (typetiket === "24") {
+    } else if (currentTotal === "24") {
         ticketPrice = 24;
     } else {
         ticketPrice = 20;
