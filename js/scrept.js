@@ -69,7 +69,7 @@ $(".fam").click(function(){
 
 //--------2-event--------------------
 
-$(".eventplus").click(() => {
+$(".eventplus").click(function() {
   
    alert("hi");   
     let currentTotal = $(".type_tiket").val();
