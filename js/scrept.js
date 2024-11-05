@@ -71,6 +71,7 @@ $(".fam").click(function(){
 
 $(".eventplus").click(() => {
     // Get the selected ticket type value
+   alert("hi");
     let currentTotal = $(".type_tiket").val();
     
     // Get the current total from the text and remove the "$" sign, then parse it as a float
