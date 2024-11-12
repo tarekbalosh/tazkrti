@@ -67,29 +67,7 @@ $(".fam").click(function(){
 });
 
 
-//--------2-event--------------------
-/*
-$(".eventplus").click(function() {
-  
-   alert("hi");   
-    let currentTotal = $(".type_tiket").val();
-    
-    let currentTotal = parseFloat($(".total_tiket").text().replace('$', ''));
 
-    let ticketPrice = 0;
-    if (currentTotal === "29") {
-        ticketPrice = 29;  
-    } else if (currentTotal === "24") {
-        ticketPrice = 24;
-    } else {
-        ticketPrice = 20;
-    }
-
-    let newTotal = currentTotal + ticketPrice;
-
-    // Update the total displayed on the page
-    $(".total_tiket").text(`$${newTotal.toFixed(2)}`);
-});
 /*----sign up ----------------*/
 $(".pas1").click(function(){
     $(".fa1").fadeIn(1000)
