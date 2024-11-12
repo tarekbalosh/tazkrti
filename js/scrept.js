@@ -68,7 +68,7 @@ $(".fam").click(function(){
 
 
 //--------2-event--------------------
-
+/*
 $(".eventplus").click(function() {
   
    alert("hi");   
