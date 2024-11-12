@@ -1,4 +1,3 @@
-alert("hi");
 window.onscroll = ()=>
 {
    if(this.scrollY > 200 )
