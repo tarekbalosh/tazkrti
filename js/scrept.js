@@ -85,7 +85,7 @@ function totaltiket(res) {
     }
 
     // Calculate new total
-    let newTotal = currentTotal + ticketPrice;
+    let newTotal = ticketPrice;
 
     // Update the total displayed on the page
     $(".total_tiket").text(`$${newTotal.toFixed(2)}`);
