@@ -69,9 +69,9 @@ $(".fam").click(function(){
 /*------------2-event----------*/
  $(".eventplus").click(function() {
     // Get the current number from the span as an integer
-    let typetiket = parseInt($(".number").text()) || 0;
-    // Increment the number and update the span's text
-    $(".number").text(typetiket + 1);
+    let typetiket = parseInt($(".number_tiket").text()) || 0;
+    // Increment the number_tiket and update the span's text
+    $(".number_tiket").text(typetiket + 1);
 });
 
 $(".type_tiket").change(function() {
