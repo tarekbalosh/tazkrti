@@ -68,12 +68,10 @@ $(".fam").click(function(){
 
 /*------------2-event----------*/
  $(".eventplus").click(function() {
-    alert("plus");
-    // Get the current value of .number as an integer, defaulting to 0 if it's empty or invalid
-    let typetiket = parseInt($(".number").val()) || 0;
-
+    alert("plus22");
+    // Get the current value of .number as an integer, defaulting to 0 if it's empty or invali
     // Increment the value by 1 and update the .number element with the new value
-    $(".number").val(typetiket + 1);
+    $(".number").val( $(".number").val() + 1);
 });
 
 $(".type_tiket").change(function() {
