@@ -67,9 +67,13 @@ $(".fam").click(function(){
 });
 
 /*------------2-event----------*/
-
-   $(".eventplus").click(function(){
-      alert("hello");
+  $(".eventplus").click(function(){
+       let typetiket = $(".number").val();
+      $(".number").val(typetiket+1);
+       
+  }
+   $(".type_tiket").onchange(function(){
+     
   let typetiket = $(".type_tiket").val();
     
     // Get the current total from the text and remove the "$" sign, then parse it as a float
