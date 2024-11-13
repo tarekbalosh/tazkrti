@@ -102,6 +102,16 @@ $(".eventplus").click(function() {
     totaltiket(typetiketCount);
 });
 
+$(".eventminus").click(function() {
+    // Get the current number from the span as an integer
+    let typetiketCount = parseInt($(".number_tiket").text()) || 0;
+    // Increment the count and update the span's text
+    typetiketCount -= 1;
+    $(".number_tiket").text(typetiketCount);
+    
+    // Call totaltiket with the updated count
+    totaltiket(typetiketCount);
+});
 
 
 
