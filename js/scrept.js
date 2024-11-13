@@ -66,8 +66,9 @@ $(".fam").click(function(){
     $(".mov , .thera , .mu").removeClass('active');
 });
 
-/*2-event*/
-$(".eventplus").click(()={
+/*------------2-event----------*/
+
+   $(".eventplus").click(function(){
    alert("hi");
 })
 
