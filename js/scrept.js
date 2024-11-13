@@ -67,11 +67,14 @@ $(".fam").click(function(){
 });
 
 /*------------2-event----------*/
-  $(".eventplus").click(function(){
-       let typetiket = parseInt($(".number").val()) || 0;
-      $(".number").val(typetiket+1);
-       
-  });
+ $(".eventplus").click(function() {
+    // Get the current value of .number as an integer, defaulting to 0 if it's empty or invalid
+    let typetiket = parseInt($(".number").val()) || 0;
+
+    // Increment the value by 1 and update the .number element with the new value
+    $(".number").val(typetiket + 1);
+});
+
 $(".type_tiket").change(function() {
     // Get the selected ticket price from the dropdown as a number
    $(".total_tiket").empty();
