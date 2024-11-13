@@ -68,6 +68,7 @@ $(".fam").click(function(){
 
 /*------------2-event----------*/
  $(".eventplus").click(function() {
+    alert("plus");
     // Get the current value of .number as an integer, defaulting to 0 if it's empty or invalid
     let typetiket = parseInt($(".number").val()) || 0;
 
