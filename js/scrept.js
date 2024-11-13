@@ -76,9 +76,9 @@ function totaltiket(res) {
 
     // Determine the ticket price based on the selected option
     let ticketPrice = 0;
-    if (typetiket == "29") {
+    if (typetiket === "29") {
         ticketPrice = 29 * res;
-    } else if (typetiket == "24") {
+    } else if (typetiket === "24") {
         ticketPrice = 24 * res;
     } else {
         ticketPrice = 20 * res;
