@@ -68,7 +68,7 @@ $(".fam").click(function(){
 
 /*------------2-event----------*/
   $(".eventplus").click(function(){
-       let typetiket = $(".number").val();
+       let typetiket = parseInt($(".number").val()) || 0;
       $(".number").val(typetiket+1);
        
   }
