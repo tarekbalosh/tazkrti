@@ -67,14 +67,7 @@ $(".fam").click(function(){
 });
 
 /*------------2-event----------*/
- $(".eventplus").click(function() {
-    // Get the current number from the span as an integer
-    let typetiket = parseInt($(".number_tiket").text()) || 0;
-    // Increment the number_tiket and update the span's text
-    $(".number_tiket").text(typetiket + 1);
-});
-
-$(".type_tiket").change(function() {
+function totaltiket() {
     // Get the selected ticket price from the dropdown as a number
    $(".total_tiket").empty();
     let ticketPrice = parseFloat($(".type_tiket").val());
@@ -87,7 +80,16 @@ $(".type_tiket").change(function() {
 
     // Display the updated total, formatted with a "$" and two decimal places
     $(".total_tiket").text(`$${newTotal.toFixed(2)}`);
+};
+ $(".eventplus").click(function() {
+    // Get the current number from the span as an integer
+    let typetiket = parseInt($(".number_tiket").text()) || 0;
+    // Increment the number_tiket and update the span's text
+    $(".number_tiket").text(typetiket + 1);
+    totaltiket();
 });
+
+
 
 
 /*----sign up ----------------*/
