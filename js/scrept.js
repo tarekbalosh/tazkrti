@@ -67,9 +67,14 @@ $(".fam").click(function(){
 });
 
 /*------------2-event----------*/
-
+  $(".eventplus").click(function(){
+       let typetiket = parseInt($(".number").val()) || 0;
+      $(".number").val(typetiket+1);
+       
+  });
 $(".type_tiket").change(function() {
     // Get the selected ticket price from the dropdown as a number
+   $(".total_tiket").empty();
     let ticketPrice = parseFloat($(".type_tiket").val());
 
     // Get the current total, removing the "$" sign and converting to a number
