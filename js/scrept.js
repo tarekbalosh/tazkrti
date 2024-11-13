@@ -69,7 +69,27 @@ $(".fam").click(function(){
 /*------------2-event----------*/
 
    $(".eventplus").click(function(){
-   alert("hi");
+      alert("hi");
+  let typetiket = $(".type-tiket").val();
+    
+    // Get the current total from the text and remove the "$" sign, then parse it as a float
+    let currentTotal = parseFloat($(".total-tiket").text().replace('$', ''));
+
+    // Determine the ticket price based on the selected option
+    let ticketPrice = 0;
+    if (typetiket === "29") {
+        ticketPrice = 29;
+    } else if (typetiket === "24") {
+        ticketPrice = 24;
+    } else {
+        ticketPrice = 20;
+    }
+
+    // Update the total by adding the selected ticket price
+    let newTotal = currentTotal + ticketPrice;
+
+    // Update the total displayed on the page
+    $(".total-tiket").text(`$${newTotal.toFixed(2)}`);
 })
 
 /*----sign up ----------------*/
