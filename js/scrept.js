@@ -67,36 +67,41 @@ $(".fam").click(function(){
 });
 
 /*------------2-event----------*/
-function totaltiket() {
+function totaltiket(res) {
     // Get the selected ticket price from the dropdown as a number
-  let typetiket = $(".type-tiket").val();
+    let typetiket = $(".type-tiket").val();
     
     // Get the current total from the text and remove the "$" sign, then parse it as a float
-    let currentTotal = parseFloat($(".total-tiket").text().replace('$', ''));
+    let currentTotal = parseFloat($(".total-tiket").text().replace('$', '')) || 0;
 
     // Determine the ticket price based on the selected option
     let ticketPrice = 0;
     if (typetiket === "29") {
-        ticketPrice = 29;
+        ticketPrice = 29 * res;
     } else if (typetiket === "24") {
-        ticketPrice = 24;
+        ticketPrice = 24 * res;
     } else {
-        ticketPrice = 20;
+        ticketPrice = 20 * res;
     }
 
-    // Update the total by adding the selected ticket price
+    // Calculate new total
     let newTotal = currentTotal + ticketPrice;
 
     // Update the total displayed on the page
     $(".total-tiket").text(`$${newTotal.toFixed(2)}`);
-};
- $(".eventplus").click(function() {
+}
+
+$(".eventplus").click(function() {
     // Get the current number from the span as an integer
-    let typetiket = parseInt($(".number_tiket").text()) || 0;
-    // Increment the number_tiket and update the span's text
-    $(".number_tiket").text(typetiket + 1);
-    totaltiket();
+    let typetiketCount = parseInt($(".number_tiket").text()) || 0;
+    // Increment the count and update the span's text
+    typetiketCount += 1;
+    $(".number_tiket").text(typetiketCount);
+    
+    // Call totaltiket with the updated count
+    totaltiket(typetiketCount);
 });
+
 
 
 
