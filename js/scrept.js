@@ -72,7 +72,7 @@ $(".fam").click(function(){
       $(".number").val(typetiket+1);
        
   }
-   $(".type_tiket").onchange(function(){
+   $(".type_tiket").change(function(){
      
   let typetiket = $(".type_tiket").val();
     
