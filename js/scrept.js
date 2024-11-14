@@ -1,13 +1,13 @@
 window.onscroll = ()=>
 {
-   if(this.scrollY > 200 )
-   {
-      $(".imagesindex .col-sm-3").fadeIn(1000);
-    }
-    else 
-   {
-    $(".imagesindex .col-sm-3").fadeOut();
-   }
+   // if(this.scrollY > 200 )
+   // {
+   //    $(".imagesindex .col-sm-3").fadeIn(1000);
+   //  }
+   //  else 
+   // {
+   //  $(".imagesindex .col-sm-3").fadeOut();
+   // }
    // if(this.scrollY > 1100)
    // {
    //    $(".imagesindex2 .col-sm-3").fadeIn(1000);
