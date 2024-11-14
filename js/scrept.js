@@ -109,7 +109,7 @@ $(".eventminus").click(function() {
     // Get the current number from the span as an integer
     let typetiketCount = parseInt($(".number_tiket").text()) || 0;
     // Increment the count and update the span's text
-     if(typetiketCount > 0)
+     if(typetiketCount > 1)
        typetiketCount -= 1;
  
     $(".number_tiket").text(typetiketCount);
