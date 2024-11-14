@@ -35,6 +35,7 @@ nav{
 .ul1 .btn
 {
 	background-color: #35FF99;
+	margin-left:10px;
 }
 .ul1 .btn:focus , .ul1 select:focus , .bbtn input
 {
