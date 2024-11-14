@@ -90,7 +90,10 @@ function totaltiket(res) {
     // Update the total displayed on the page
     $(".total_tiket").text(`$${newTotal.toFixed(2)}`);
 }
-
+$(".type_tiket").change(()=>{
+    let typetiketCount = parseInt($(".number_tiket").text()) || 0;
+      totaltiket(typetiketCount);
+});
 $(".eventplus").click(function() {
     // Get the current number from the span as an integer
     let typetiketCount = parseInt($(".number_tiket").text()) || 0;
