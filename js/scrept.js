@@ -8,15 +8,15 @@ window.onscroll = ()=>
    {
     $(".imagesindex .col-sm-3").fadeOut();
    }
-   if(this.scrollY > 1100)
-   {
-      $(".imagesindex2 .col-sm-3").fadeIn(1000);
+   // if(this.scrollY > 1100)
+   // {
+   //    $(".imagesindex2 .col-sm-3").fadeIn(1000);
     
-    }
-    else 
-   {
-    $(".imagesindex2 .col-sm-3").fadeOut();
-   }
+   //  }
+   //  else 
+   // {
+   //  $(".imagesindex2 .col-sm-3").fadeOut();
+   // }
    if(this.scrollY > 1100)
    {
       $(".subs").css({
