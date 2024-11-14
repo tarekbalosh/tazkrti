@@ -147,7 +147,8 @@ nav{
 }
 .imagesindex .col-sm-3 , .imagesindex2 .col-sm-3
 {
-  display: none;
+/*   display: none; */
+	
 }
 .showmore
 {
