@@ -464,7 +464,7 @@ padding-left: 10px;
 	margin-left:13px
 }
 .part1 .node{
-overflow: auto;
+   line-height:25px;
 }
 .part1 .subj{
 	font-weight: bold;
